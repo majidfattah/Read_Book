@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Books Home</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    </head>
+
+    <meta charset="utf-8">
+    <style media="screen">
+        div.container {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            margin: 20px auto;
+        }
+
+        div.header {
+            width: 100%;
+            min-height: 50px;
+            border-bottom: 1px solid black;
+            /* background-image: linear-gradient(gray,white); */
+            padding-left: 15px;
+        }
+
+        div.header h2 {
+            display: inline-block;
+            vertical-align: top;
+            margin: 5px 10px;
+        }
+
+        div.header h3 {
+            display: inline-block;
+            vertical-align: top;
+            /* float: right; */
+            margin: 5px 10px;
+        }
+
+        div.box {
+            min-width: 100%;
+            min-height: 300px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 20px;
+            padding: 30px;
+            /* border: 1px solid red; */
+        }
+
+        div.box2 {
+            width: 100%;
+            min-height: 300px;
+            /* display: inline-block;
+            vertical-align: top; */
+            /* margin-top: 20px; */
+            padding: 30px;
+            /* border: 1px solid red; */
+        }
+
+        div.box h3 {
+            text-decoration: underline;
+        }
+
+        p.content {
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        .button {
+            /* background-color: red; */
+            border: solid 1px black;
+            color: black;
+            margin: 5px;
+            margin-left: 5x;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            border-radius: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-left: 800px;
+
+        }
+
+        .button2 {
+            border: solid 1px black;
+            color: black;
+            margin: 5px;
+            margin-left: 5x;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            border-radius: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Welcome, {{ user['first_name'] }}!</h1><br>
+            <a href="/add" class="button" role="" aria-pressed="true">Add new job</a>
+            <a href="/logout" class="button2" role="" aria-pressed="true">Logout</a>
+        </div>
+        
+        
+
+
+    </div>
+
+
+</body>
+
+</html>
